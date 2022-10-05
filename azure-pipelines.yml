@@ -32,7 +32,6 @@ stages:
     - task: 6d15af64-176c-496d-b583-fd2ae21d4df4@1
       inputs:
         repository: testgitoprepo
-        clean: true
     - task: Bash@3
       displayName: 'Initial Process Before Deploy'
       inputs:
