@@ -7,6 +7,9 @@ trigger:
 - main
 
 steps:
+- checkout: self
+  clean: false
+
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
