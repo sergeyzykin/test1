@@ -8,7 +8,7 @@ trigger:
 
 steps:
 - checkout: self
-  clean: false
+  clean: true
 
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
